@@ -1,0 +1,94 @@
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Blocks">
+      <UniqueIdentifier>{F582D864-633B-4654-8CDE-63DAAECD4CC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\RTR">
+      <UniqueIdentifier>{533C49CF-EFBB-49D9-B221-D2A70C52F47C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\RTR\src">
+      <UniqueIdentifier>{E362B9DF-3A5A-4298-A6F8-CA99A263FE5D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\RTR\src\RTR">
+      <UniqueIdentifier>{A17EE7C4-7D87-4280-9E52-C8AA4403920B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\RTR\include">
+      <UniqueIdentifier>{1AC39B9A-DD25-462F-97E1-124159E389ED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\RTR\include\RTR">
+      <UniqueIdentifier>{06D177B1-8BFE-4B7F-B10F-7EC3B6F2AAED}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\KeepRollinApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClCompile Include="..\src\KeepRollinApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blocks\RTR\src\RTR\Material.cpp">
+      <Filter>Blocks\RTR\src\RTR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blocks\RTR\src\RTR\ObjLoader.cpp">
+      <Filter>Blocks\RTR\src\RTR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blocks\RTR\src\RTR\SceneGraph.cpp">
+      <Filter>Blocks\RTR\src\RTR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blocks\RTR\src\RTR\WatchThis.cpp">
+      <Filter>Blocks\RTR\src\RTR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blocks\RTR\src\RTR\tiny_obj_loader.cc">
+      <Filter>Blocks\RTR\src\RTR</Filter>
+    </ClCompile>
+    <ClInclude Include="..\blocks\RTR\include\RTR\Material.hpp">
+      <Filter>Blocks\RTR\include\RTR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\RTR\include\RTR\ObjLoader.hpp">
+      <Filter>Blocks\RTR\include\RTR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\RTR\include\RTR\SceneGraph.hpp">
+      <Filter>Blocks\RTR\include\RTR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\RTR\include\RTR\WatchThis.hpp">
+      <Filter>Blocks\RTR\include\RTR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\RTR\include\RTR\Resources.h">
+      <Filter>Blocks\RTR\include\RTR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\RTR\include\RTR\RTR.h">
+      <Filter>Blocks\RTR\include\RTR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\RTR\include\RTR\tiny_obj_loader.h">
+      <Filter>Blocks\RTR\include\RTR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\RTR\include\RTR\RTR.h">
+      <Filter>Blocks\RTR\include\RTR</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
